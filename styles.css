@@ -1,0 +1,152 @@
+#title {
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+.owl-next i {
+  position: absolute;
+  right: 0px;
+  width: 0px;
+  bottom: 150px;
+  opacity: 0.7;
+}
+
+.owl-prev i {
+  position: absolute;
+  left: -275px;
+  width: 550px;
+  height: 350px;
+  bottom: -180px;
+  z-index: 0;
+  opacity: 0.7;
+}
+
+.owl-item img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 22% !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.space {
+  width: 5px;
+  height: 10px;
+}
+
+.container {
+  background-color: #f0f0f0;
+  width: 230px !important;
+  height: 340px !important;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border-radius: 2px;
+  margin: auto;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 22%;
+}
+
+#discountBox {
+  background-color: #8b0000;
+  position: absolute;
+  width: 50px;
+  height: 30px;
+  margin: 5px 5px 5px 1px;
+  z-index: 0;
+  color: white;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+#discountBox p {
+  margin: auto;
+  padding: 7px;
+}
+
+#likeBox {
+  background-color: white;
+  position: absolute;
+  width: 50px;
+  height: 30px;
+  margin: 40px 5px 5px 1px;
+  z-index: 0;
+  color: #8b0000;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+#likeBox p {
+  margin: auto;
+  padding: 5px;
+}
+
+#newBox {
+  background-color: #1f1f1f;
+  position: absolute;
+  width: 50px;
+  height: 30px;
+  margin: 40px 5px 5px 1px;
+  z-index: 0;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+#newBox p {
+  margin: auto;
+  padding: 7px;
+}
+
+.product-title {
+  margin: 10px;
+  width: 200px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product-info {
+  opacity: 0.3;
+  margin: 5px;
+  width: 200px;
+  height: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.product-price {
+  margin-top: 8px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.price-old {
+  opacity: 0.5;
+  text-decoration-line: line-through;
+}
+
+.basePrice {
+  margin-top: 8px;
+  opacity: 0.3;
+  font-size: 10px;
+}
